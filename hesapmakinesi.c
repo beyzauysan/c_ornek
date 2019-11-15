@@ -4,7 +4,7 @@
 
 #define pisayisi 3.14159265
 
-//BEYZA UYSAN - 19010011059
+//BEYZA UYSAN 
 
 int main()
 {
@@ -24,7 +24,7 @@ menu:
 
     switch (mod)
     {
-    case(1):   //BASÝT ÝÞLEMLER
+    case(1):   //BASÄ°T Ä°ÅžLEMLER
     {
         printf("\nBASIT MOD ILE YAPMAK ISTEDIGINIZ ISLEMI SECINIZ:\n");
         printf("\n1-Toplama\n2-Cikarma\n3-Carpma\n4-Bolme\n\n");
@@ -32,7 +32,7 @@ menu:
 
         switch(basitislem)
         {
-        case(1): //TOPLAMA ÝÞLEMÝ
+        case(1): //TOPLAMA Ä°ÅžLEMÄ°
         {
 
 basit1:
@@ -57,7 +57,7 @@ basit1:
 
             break;
         }
-        case(2):  //ÇIKARMA ÝÞLEMÝ
+        case(2):  //Ã‡IKARMA Ä°ÅžLEMÄ°
         {
 basit2:
             printf("\nBir sayi giriniz:");
@@ -81,7 +81,7 @@ basit2:
 
             break;
         }
-        case(3): //ÇARPMA ÝÞLEMÝ
+        case(3): //Ã‡ARPMA Ä°ÅžLEMÄ°
         {
 basit3:
             printf("\nBir sayi giriniz:");
@@ -106,7 +106,7 @@ basit3:
             break;
 
         }
-        case(4):  //BÖLME ÝÞLEMÝ
+        case(4):  //BÃ–LME Ä°ÅžLEMÄ°
         {
 basit4:
             printf("\nBir sayi giriniz:");
@@ -137,7 +137,7 @@ basit4:
         break;
 
     }
-    case(2): //GELÝÞMÝÞ ÝÞLEMLER MODU
+    case(2): //GELÄ°ÅžMÄ°Åž Ä°ÅžLEMLER MODU
     {
         printf("\nGELISMIS MOD ILE YAPMAK ISTEDIGINIZ ISLEMI SECINIZ:\n");
         printf("\n1-Mod Alma\n2-Karekok Alma\n3-Us Alma\n4-Logaritma\n5-Faktoriyel\n6-Yuzde Hesaplama\n7-Sinus Degeri Hesaplama\n8-Cosinus Degeri Hesaplama\n\n");
@@ -169,7 +169,7 @@ gelismis1:
 
             break;
         }
-        case(2): //KAREKÖK BULMA
+        case(2): //KAREKÃ–K BULMA
         {
             gelismis2:
             printf("\nKarekok almak istediginiz sayiyi giriniz:");
@@ -190,7 +190,7 @@ gelismis1:
 
             break;
         }
-        case(3): // ÜS ALMA
+        case(3): // ÃœS ALMA
         {
 
 gelismis3:
@@ -219,7 +219,7 @@ gelismis3:
 
             break;
         }
-        case(4): //LOGARÝTMA HESABI
+        case(4): //LOGARÄ°TMA HESABI
         {
 
 gelismis4:
@@ -243,7 +243,7 @@ gelismis4:
 
             break;
         }
-        case(5): //FAKTORÝYEL HESABI
+        case(5): //FAKTORÄ°YEL HESABI
         {
 gelismis5:
             printf("\nFaktoriyelini bulmak istediginiz sayiyi giriniz:");
@@ -267,7 +267,7 @@ gelismis5:
 
             break;
         }
-        case(6): //yÜZDE HESAPLAMA
+        case(6): //yÃœZDE HESAPLAMA
         {
 gelismis6:
             printf("\nYuzde hesaplamak istediginiz sayiyi giriniz:");
@@ -292,7 +292,7 @@ gelismis6:
 
             break;
         }
-        case(7): //SÝNUS DEÐERÝ HESAPLAMA
+        case(7): //SÄ°NUS DEÄžERÄ° HESAPLAMA
         {
 gelismis7:
             printf("\nSinus degerini hesaplamak istediginiz sayiyi giriniz:");
@@ -314,7 +314,7 @@ gelismis7:
 
             break;
         }
-        case(8): //COSÝNUS DEÐERÝ HESAPLAMA
+        case(8): //COSÄ°NUS DEÄžERÄ° HESAPLAMA
         {
 gelismis8:
             printf("\nCosinus degerini hesaplamak istediginiz sayiyi giriniz:");
@@ -343,7 +343,7 @@ gelismis8:
     }
 
 
-hatali:  //KULLANICI TARAFINDAN HATALI SAYI GÝRÝLÝNCE EKRANA YAZDIRILACAK GÖRÜNTÜ
+hatali:  //KULLANICI TARAFINDAN HATALI SAYI GÄ°RÄ°LÄ°NCE EKRANA YAZDIRILACAK GÃ–RÃœNTÃœ
     default:
         printf("\nHATALI SECIM YAPTINIZ!...\n\n");
 
